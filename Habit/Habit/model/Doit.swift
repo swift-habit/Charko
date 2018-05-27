@@ -17,6 +17,5 @@ class Doit {
     var isChecked: Bool
     var Name: String
     
-    
-    
+    var digitCounts = Array<CalendarCheck>()
 }

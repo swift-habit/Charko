@@ -13,7 +13,6 @@ class theamDoitTableViewCell: UITableViewCell{
     @IBOutlet weak var cbView: UIButton!
     @IBOutlet weak var lbName: UILabel!
     
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -34,7 +33,8 @@ class theamDoitTableViewCell: UITableViewCell{
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-        // Configure the view for the selected state
+        // Configure the view for the selected state // 여러번 실행됨
+//        print("Selected cell into")
     }
 
 }
